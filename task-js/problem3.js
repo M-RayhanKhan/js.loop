@@ -14,13 +14,25 @@
 
 // Display sum of all the even numbers from 206 to 311.
 
-let number2 = 206;
+// let number2 = 81;
+// let sum2 = 0;
+// while(number2 <= 131){
+//     if (number2 % 2 === 1) {
+//         console.log(number2);
+//         sum2 = sum2 + number2;
+//         console.log("sum odd Number:", sum2);
+//     }
+//     number2++
+// }
+
+let number2 = 81;
 let sum2 = 0;
-while(number2 <= 311){
-    if (number2 % 2 === 0) {
+while(number2 <= 131){
+    if (number2 % 2 === 2) {
         console.log(number2);
         sum2 = sum2 + number2;
         console.log("sum even Number:", sum2);
     }
     number2++
 }
+
